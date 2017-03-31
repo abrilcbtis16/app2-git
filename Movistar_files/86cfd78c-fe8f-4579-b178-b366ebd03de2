@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 479px) {
+    .aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content .btn {
+        /*bottom: 20px !important;*/
+    }
+}
+
+@media (max-width: 320px)  {
+    .aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content .btn {
+    bottom: 25px !important;
+    height: 20px !important;
+    padding: 0px!important;
+    font-size: 12px!important;
+    }
+}

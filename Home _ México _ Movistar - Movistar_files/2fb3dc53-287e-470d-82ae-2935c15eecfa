@@ -1,0 +1,156 @@
+.banner2 {
+        position: relative;
+        width: 100%;
+    }
+    .banner2-bg {
+        width: 100%;
+    }
+    .banner2-bg-responsive,
+    .content2-responsive {
+        display: none;
+    }
+    .banner2-content {
+        position: absolute;
+        padding: 15px;
+        top: 30px;
+    }
+    .content2 h1,
+    .content2-responsive h1 {
+        font-size: 26px;
+        color: #fff !important;
+    }
+    .content2 p,
+    .content2-responsive p,
+    .content2-responsive a {
+        color: #fff !important;
+        font-size: 16px;
+    }
+    .content2-responsive p {
+        margin-bottom: 25px;
+    }
+    .content2-responsive a {
+        color: #fff !important;
+        margin-top: 30px;
+        text-decoration: none;
+        background: #7ab700;
+        padding: 5px 35px;
+        border-radius: 0px;
+        line-height: 20px!important;
+        font-size: 16px;
+        font-weight: 700;
+        display: inline-block;
+    }
+    .content2-responsive a:hover {
+        text-decoration: underline;
+    }
+    .content2 a {
+        color: #fff!important;
+        margin-top: 15px;
+        text-decoration: none;
+        background: #5bc500!important;
+        padding: 5px 35px;
+        line-height: 20px!important;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 0px;
+        display: inline-block;
+    }
+    .content2 a:hover {
+        color: #fff !important;
+        text-decoration: underline;
+    }
+    @media screen and (max-width: 991px) {
+        .banner2 {
+            position: relative;
+            max-width: 100%;
+        }
+        .content2 h1 {
+            margin-bottom: 70px;
+        }
+
+        .contenido-no-estructurado .banner2 .content2-responsive p {
+    font-size: 18px!important;
+}
+    }
+    @media screen and (max-width: 800px) {
+        .content2 h1 {
+            margin-bottom: auto;
+        }
+        .contenido-no-estructurado .banner2 .banner2-content .content2 p {
+            margin-top: 40px;
+            padding-right: 60px;
+            margin-bottom: 40px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .banner2-bg,
+        .content2 {
+            display: none;
+        }
+        .banner2-bg-responsive,
+        .content2-responsive {
+            position: relative;
+            width: 100%;
+            display: block;
+            background-size: cover;
+        }
+        .content2 h1 {
+            margin-bottom: 40px;
+        }
+        .contenido-no-estructurado .banner2 .banner2-content .content2-responsive p {
+            margin-top: 30px;
+            padding-right: 60px;
+            margin-bottom: 30px;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .contenido-no-estructurado .banner2 .banner2-content .content2-responsive p {
+            margin-top: 40px;
+            padding-right: 60px;
+            margin-bottom: 40px;
+        }
+    }
+    @media screen and (max-width: 414px) {
+        .contenido-no-estructurado .banner2 .banner2-content .content2-responsive p {
+            margin-top: 40px;
+            padding-right: 60px;
+            margin-bottom: 40px;
+        }
+    }
+    @media screen and (max-width: 384px) {
+        .contenido-no-estructurado .banner2 .banner2-content .content2-responsive p {
+            margin-top: 20px;
+            padding-right: 60px;
+            margin-bottom: 20px;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        .contenido-no-estructurado .banner2 .banner2-content .content2-responsive p {
+            margin-top: 30px;
+            padding-right: 60px;
+            margin-bottom: 30px;
+        }
+    }
+    @media screen and (max-width: 360px) {
+        .contenido-no-estructurado .banner2 .banner2-content .content2-responsive p {
+            margin-top: 20px;
+            padding-right: 60px;
+            margin-bottom: 20px;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .contenido-no-estructurado .banner2 .banner2-content .content2-responsive p {
+            margin-top: 20px;
+            padding-right: 60px;
+            margin-bottom: 20px;
+        }
+    }
+<!--[endif]--><!--[if IE 8]>
+#carruselPlanes .swiper-slide{
+width:31%;height:auto;margin: 15px 1%;float:left;
+}
+<![endif]--><!--[if IE 7]>
+#carruselPlanes .swiper-slide{
+width:31%;height:auto;margin: 15px 1%;float:left;
+}
+<![endif]-->

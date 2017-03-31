@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Samsung*/
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.SamsungBoldNegra, .SamsungBoldNegra{
+	font-family: 'Samsung_Sharp_Sans'!important;color: #000!important;
+	}
+
+/*Regular title Blanco*/
+
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerRegularBlanco1 {
+    font-family: 'telefonicatext-regular';
+    color: #fff!important;
+}
+
+/*Light title Blanco*/
+
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerLightBlanco1 {
+	font-family: 'telefonica_thin'!important; color: #fff!important;
+}
+
+/*Hand title Blanco*/
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerHandBlanco {
+    font-family: 'telefonica_hand'!important;
+    color: #fff!important;
+}
+
+/*Light title Gris*/
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h3.subtitle span.BannerLightGris1
+{
+    font-family: 'telefonica_thin';
+    color: #726a6a!important;
+	}
+
+/*Regular subtitle Gris*/
+
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h3.subtitle span.BannerRegularGris1
+{
+    font-family: 'telefonicatext-regular';
+    color: #726a6a!important;
+	}
+
+/*Regular subtitle Azul*/
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h3.subtitle span.BannerRegularAzul1
+{
+    font-family: 'telefonicatext-regular';
+    color: #005a8c!important;
+	}
+
+
+/*Hand title Gris*/
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerHandV1 {
+    font-family: 'telefonica_hand'!important;
+    color: #726a6a!important;
+}
+
+/*Light title Azul*/
+
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerLightAzul1 {
+    font-family: 'telefonica_thin';color: #005a8c!important;
+}
+
+
+/*Light title Azul3*/
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerLightAzul3 {
+    font-family: 'telefonica_thin';color: #00385d!important;
+}
+
+
+
+/*Regular subtitle Verde*/
+
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h3.subtitle span.BannerLightVerde1 {
+    font-family: 'telefonicatext-regular';
+    color: #78b532!important;
+}
+
+/*Light subtitle Azul*/
+
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h3.subtitle span.BannerLightAzul1 {
+    font-family: 'telefonica_thin';
+    color: #005a8c!important;
+}
+
+/*Light subtitle Azul3*/
+
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h3.subtitle span.BannerLightAzul3 {
+    font-family: 'telefonica_thin';
+    color: #00385d!important;
+}
+
+/*Hand title Verde*/
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerHandV1 {
+    font-family: 'telefonica_hand'!important;
+    color: #78b532!important;
+}
+
+/*Hand title Azul*/
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerHandAzul1 {
+    font-family: 'telefonica_hand'!important;
+    color: #005a8c!important;
+}
+
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerHandAzul2 {
+    font-family: 'telefonica_hand'!important;
+    color: #61c5f0!important;
+}
+
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerHandAzul-2 {
+    font-family: 'telefonica-hand'!important;
+    color: #61c5f0!important;
+}
+
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerHandVerde2{
+	    font-family: 'telefonica_hand'!important;
+    color: #aeca36!important;
+}
+
+/*Regular title Verde3*/
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content h2.title span.BannerRegularVerde3{
+	    font-family: 'telefonicatext-regular'!important;
+    color: #78b532!important;
+}
+
+
+/*Estilos banner quiero cambiarme*/
+.BannerLightBlancoUno {
+	font-family: 'telefonica_thin'!important;color: #fff!important;
+}
+
+.banner-qc{
+	font-family: 'telefonica_hand'!important;color: #aeca36!important;
+}
+/*Fin Estilos banner quiero cambiarme*/
+
+.aui .banner_secundario.rotativo .carousel .carousel-inner .item .carousel-caption .banner_content .title span.BannerLightBlanco1, .BannerLightBlanco1 {
+	font-family: 'telefonica_thin'!important;color: #fff!important;
+}
+
+.aui .banner_secundario.enlazado .carousel .carousel-inner .item .carousel-caption .banner_content .title p span.BannerLightBlanco1 {
+	font-family: 'telefonica_thin'!important;color: #fff!important;
+}
+
+.aui .banner_secundario.enlazado .carousel .carousel-inner .item .carousel-caption .banner_content .title span.BannerLightAzul1{
+	font-family: 'telefonica_thin'!important;color: #005a8c!important;
+	}
+
+.aui .banner_secundario.enlazado .carousel .carousel-inner .item .carousel-caption .banner_content .title span.BannerHandAzul1{
+	font-family: 'telefonica_hand'!important;
+    color: #61c5f0!important;
+	}
+
+.aui .banner_secundario.enlazado .carousel .carousel-inner .item .carousel-caption .banner_content .descriptor p span.BannerLightAzul1 {
+	font-family: 'telefonica_thin'!important;color: #005a8c!important;
+	}
+
+
+/*Font sizes*/
+
+.SesentaYdos
+{
+    font-size: 62px!important;}
+
+.CincuentaYdos
+{
+    font-size: 52px!important;}
+
+.CuarentaYdos
+{
+    font-size: 42px!important;}
+
+.TreintaYcinco
+{
+	font-size: 35px!important;}
+
+
+.TreintaYdos
+{
+    font-size: 32px!important;}
+
+.Veintidos
+{
+    font-size: 22px!important;}
+
+.Dieciocho
+{
+    font-size: 18px!important;}
+
+.Diecisiete
+{
+    font-size: 16px!important;}
+
+.Dieciseis
+{
+    font-size: 16px!important;}
+
+@media (max-width:768px) {
+	.SesentaYdos, .CincuentaYdos, .CuarentaYdos
+{
+    font-size: 22px!important;}
+	
+}
+
+@media (max-width:414px) {
+	.SesentaYdos, .CincuentaYdos, .CuarentaYdos
+{
+    font-size: 18px!important;}
+
+	.TreintaYdos,.Veintidos,.TreintaYcinco
+{
+    font-size: 10px!important;}
+    .Diecisiete{
+    	font-size: 9px!important;
+    }
+
+ .txt-logonavideno{
+ 	width: 55%;
+ }
+
+
+	.aui .banner_secundario.enlazado .carousel .carousel-inner .item .carousel-caption .banner_content {
+		    padding-right: 33%!important;
+		}
+
+	
+
+	.aui .banner_secundario.enlazado .carousel .carousel-inner .item .carousel-caption .banner_content .title {
+		height:auto!important;
+		padding-bottom:4px;
+		}
+
+		.aui .banner_secundario.enlazado .carousel .carousel-inner .item .carousel-caption .banner_content .descriptor{
+			padding-top:10px!important;
+			}
+
+
+}
+@media( max-width:320px ){
+.txt-logonavideno{
+ 	width: 55%;
+ }
+}

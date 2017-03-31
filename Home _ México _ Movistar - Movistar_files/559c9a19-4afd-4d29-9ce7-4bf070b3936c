@@ -1,0 +1,15 @@
+/*ESTILOS PUNTOS*/
+.caja{width:100%;max-width:1170px;position:relative}
+.tit{font-family:"Movistar_headlineregular",Verdana;font-size:30px;line-height:1;width:auto;height:auto;padding:6px 0 6px 40px !important;position:relative;color:#3189aa;}
+.cajaIconos{width:auto;overflow:hidden;position:relative}
+
+/*ESTILOS CAROUSEL*/
+.flechaCarousel{margin:0;cursor:pointer;display:block;position:absolute;z-index:20;bottom:0}
+#prev{left:0}#next{right:0}
+.flechaCarousel.disabled{display:none !important;}
+#elementsCarousel{width:1085px;overflow:hidden;margin:5px auto;position:relative;z-index:10}
+.caroufredsel_wrapper{left:-1px !important}
+#carousel .itemCarousel{display:block;float:left;margin:0;width:180px;height:82px;overflow:hidden;position:relative;border-left:1px solid #3189aa}
+#carousel .itemCarouselFirst{border-left:none !important}
+
+@media screen and (max-width:1170px){#elementsCarousel{margin:5px 0;}}

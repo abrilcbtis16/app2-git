@@ -1,0 +1,93 @@
+var anchoVentana=$(window).width(); // ancho actual de la pantalla
+var altoVentana=$(window).height(); // alto actual de la pantalla
+function tamanioMenuDesplegado(){
+	anchoVentana=$(window).width();
+	if(anchoVentana<750){
+		altoVentana=$(window).height(); // alto actual de la pantalla
+		altoVentana = altoVentana - $("#wrapper header .navegacion-secundaria").height() - $("#wrapper header #navigation").height() - 15; // los 15 son por el margen de la ventana
+		//altoVentana = 300;
+		$(".aui header #navigation .navbar-inner div.nav-collapse").css("max-height",altoVentana);
+		//alert(altoVentana);
+		
+		
+	}else{
+		$(".navbar .nav-collapse .lfr-nav-item.dropdown").removeClass("open");
+	}
+}
+
+function simulacioBtnNav(){
+	// Simulamos el click de boton del menu
+	
+	$(".navbar .nav-collapse .lfr-nav-item.dropdown.item-menu-top .arrow-down").toggleClass("down"); // aplicamos la clase para cambiar de sentido la flecha
+	$(".navbar .nav-collapse .lfr-nav-item.dropdown.item-menu-top .arrow-down").parent().siblings(".dropdown-menu.child-menu").slideToggle();
+	$('ul.nav .lfr-nav-item').addClass('open');
+	
+}
+
+$(document).ready(function(){
+	
+	tamanioMenuDesplegado();
+	if(anchoVentana<750){
+		simulacioBtnNav();
+	}
+
+	//Se oculta el div contenedor de resultados busqueda
+	$(".contenedor-buscador-main .container-fluid").css("display","none");
+
+	//click boton buscador movil pra ir al top de la pagina
+	/*$(".btn_search").click(function () {
+		console.log("mostrando botton movil");
+		$("html, body").animate({ scrollTop: 0 }, 600);
+		$(".contenedor-buscador-main .container-fluid").css("display","none");
+		$(".input-layer-buscador").val("");
+		return false;
+	});
+	*/
+	//click boton buscador desktop para mostrar el contenedor de las busquedas
+
+	$("#btn-buscador").click(function (){
+		
+		 $(".contenedor-buscador-main").slideDown("fast");
+	     $("#navigation .buscador_form").addClass("open");
+	     $(".contenedor-buscador-main form input[type='text']").focus();
+	     openOverlay();
+		 
+	 	 $(".input-layer-buscador").val($("#inputBuscadorHome").val());
+	 	 
+	 	 if($("#inputBuscadorHome").val()!=null && $("#inputBuscadorHome").val()!=""){
+	 	 	$(".submit-layer-buscador").click();
+	 	 }
+	 		 
+	 	 $("#inputBuscadorHome").val("");
+	 	 
+	 	 
+	});
+	
+	//click boton que realiza la bsqueda final liferay hybris
+	
+	$(".submit-layer-buscador").click(function(){
+		$(".contenedor-buscador-main .container-fluid").css("display","block");
+	});
+	
+	//click boton que realiza para ocultar el contenedor de busquedas
+	$("#navigation .buscador_form .search_close").click(function () {
+		$(".contenedor-buscador-main .container-fluid").css("display","none");
+		$(".input-layer-buscador").val("");
+	});
+	
+	$(".menu_mi_movistar .list-nav-sec span").text("Recarga");
+	var img = document.createElement("IMG");
+	$(img).attr("src", "/colportal-mexico-unmodularized-theme/images/latam/ico_recarga.png");
+	$(".menu_mi_movistar .list-nav-sec span").append(img);
+
+
+}); // cierra document ready
+
+$(window).resize(function(){
+	
+	tamanioMenuDesplegado();
+	
+}); // cierra document resize
+
+
+

@@ -1,0 +1,132 @@
+
+.wrap-contenedor-barra {
+    width: 50%;
+    height: 140px;
+    float: left;
+    padding: 5px 5px 5px 0px !important;
+}
+
+.ContenedorBarra {
+    background-color: #04395B !important;
+    text-align: center;
+    padding: 15px!important;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+}
+
+.ContenedorBarra p {
+    margin: 0px;
+    padding: 10px;
+    color: white;
+}
+
+.wrap-logo-nice {
+    width: 12.5%;
+    height: 140px;
+    float: left;
+    padding: 5px !important;
+}
+
+.wrap-logo-nice .wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #04395B;
+}
+
+.logo-nyce {
+    background-color: #04395B;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0 !important;
+}
+
+.logo-nyce {
+    background-color: #04395B;
+    height: 100%;
+    text-align: center;
+}
+
+.logo-nyce img {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.wrapper-911 {
+    width: 12.5%;
+    height: 140px;
+    float: left;
+    padding: 5px !important;
+}
+
+.wrapper-911-img {
+    height: 100%;
+    background-color: #04395B !important;
+}
+
+img.banner-911 {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.wrap-nos-importa-mexico {
+    width: 25%;
+    height: 140px;
+    float: left;
+    padding: 5px 0px 5px 5px !important;
+}
+
+div.nos-importa-mexico {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color: #04395B;
+    height: 100%;
+    width: 100%;
+}
+
+div.nos-importa-mexico img {
+    width: 100% !important;
+    text-align: center;
+    padding: 5px 0;
+    margin: 2em 0 !important;
+}
+
+@media (max-width: 767px) {
+    .wrap-contenedor-barra {
+        width: 100%;
+        padding: 5px 0px 5px 0px !important;
+    }
+    
+    .wrap-logo-nice {
+        width: 50%;
+        height: 175px;
+        padding: 5px 5px 5px 0px !important;
+    }
+    
+    .logo-nyce img {
+        max-width: 100%;
+        width: 100% !important;
+        height: 100%;
+    }
+    
+    .wrapper-911 {
+        width: 50%;
+        height: 175px;
+        padding: 5px 0px 5px 5px !important;
+    }
+    
+    .wrap-nos-importa-mexico {
+        width: 100%;
+        padding: 5px 0px 5px 0px !important;
+    }
+}
