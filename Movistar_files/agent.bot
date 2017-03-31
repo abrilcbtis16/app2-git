@@ -1308,7 +1308,7 @@ setTimeout(function(){self.initScenario();self.initProActivity();},1000);$.chatB
         registered: false,
         phone: '',
         crossURL: 'http://',
-        ip: '189.190.229.127',
+        ip: '189.164.33.249',
         minimized: false,
         bot: 1073,
         scenario: 2    });

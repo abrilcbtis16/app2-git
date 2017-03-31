@@ -1,0 +1,80 @@
+body.agentbot.print > * {
+    display: none;
+}
+
+body.agentbot.print {
+    height: 100% !important;
+    max-height: 100% !important;
+}
+
+body.agentbot.print #agentbot-chat-avatar,
+body.agentbot.print #agentbot-chat-header,
+body.agentbot.print #agentbot-chat-footer,
+body.agentbot.print #agentbot-chat-send,
+body.agentbot.print #agentbot-chat-message,
+body.agentbot.print #agentbot-chat-main #agentbot-chat-complement,
+body.agentbot.print #agentbot-chat-conversation span.qualify-answer,
+body.agentbot.print #agentbot-chat-expand-collapse {
+    display: none;
+}
+
+body.agentbot.print #agentbot-chat-main,
+body.agentbot.print #agentbot-chat-main #agentbot-chat-conversation .agent span, 
+body.agentbot.print #agentbot-chat-main #agentbot-chat-conversation .user span {
+    display: inline-block;
+}
+
+body.agentbot.print #agentbot-chat-main,
+body.agentbot.print #agentbot-chat-main #agentbot-chat-wrapper,
+body.agentbot.print #agentbot-chat-main #agentbot-chat-conversation,
+body.agentbot.print #agentbot-chat-main #agentbot-chat-conversation-container {
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+body.agentbot.print #agentbot-chat-main #agentbot-chat-conversation-container {
+    border: none;
+}
+
+body.agentbot.print #agentbot-chat-main #agentbot-chat-conversation {
+    padding: 15px;
+}
+
+body.agentbot.print #agentbot-chat-main #agentbot-chat-conversation .message:after{
+    display: block;
+}
+
+body.agentbot.print #agentbot-chat-main.left,
+body.agentbot.print #agentbot-chat-main.bottom,
+body.agentbot.print #agentbot-chat-main.top,
+body.agentbot.print #agentbot-chat-main.right {
+    position: relative;
+    left: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    right: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+body.agentbot.print #agentbot-chat-main #agentbot-chat-complement {
+    visibility: hidden;
+}
+body.agentbot #agentbot-chat-main #agentbot-chat-wrapper {
+    border: none;
+}
+body.agentbot #agentbot-chat-main #agentbot-chat-send {
+    visibility: hidden;
+}
+body.agentbot #agentbot-chat-main #agentbot-chat-message {
+    visibility: hidden;
+}
+body.agentbot #agentbot-chat-main #agentbot-chat-email-window  {
+    display: none;
+}

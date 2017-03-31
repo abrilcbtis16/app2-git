@@ -1,7 +1,0 @@
-// JavaScript Document
-$('.number').each(function () {
-	var item = $(this).text();
-	var res = item.replace(".",",");
-	$(this).text(res);
-});
-	
